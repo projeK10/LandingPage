@@ -6,7 +6,7 @@ body {
 #secOne {
     background-color: #1F2937;
     width: 100%;
-    padding-bottom: 150px;;
+    padding-bottom: 150px;
 }
 
 header,
@@ -91,4 +91,108 @@ h1 {
 
 .text {
     margin-left: 250px;
+}
+
+#secTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.black {
+    color: black;
+    margin: 25px 0;
+}
+
+.boxes {
+    display: flex;
+    gap: 35px;
+}
+
+.box {
+    height: 170px;
+    width: 170px;
+    border: 2px solid #3882F6;
+    border-radius: 17px;
+}
+
+
+.textBox {
+    margin-top: 10px;
+    max-width: 170px;
+    text-align: center;
+}
+
+#secThree {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.light,
+.textBox,
+.actionParagraph,
+.footer{
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.light {
+    max-width: 750px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.dark {
+    margin-top: 0;
+    float: right;
+    color: black;
+}
+
+#secFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 190px 0;
+}
+
+.itstime {
+    background-color: #3882F6;
+    display: flex;
+    gap: 200px;
+    padding: 50px 100px;
+    border-radius: 15px;
+}
+
+.actionParagraph {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.signitup {
+    background-color: #3882F6;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    border: 3px white solid;
+    border-radius: 9px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.footer {
+    margin-top: 0;
+    color: white;
 }
